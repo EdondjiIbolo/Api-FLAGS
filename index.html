@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>REST Countries API </title>
+</head>
+<body id="body">
+    <header class="header">
+        <p class="header__title">Where In the world?</p>
+        <div class="toggle-theme" id="toggle-theme">
+            <i id="icono" class="fa-solid fa-moon "></i>
+            <p class="text__normal--bold mode">dark mode</p>
+        </div>
+    </header>
+    <main class="main-container container">
+        <div class="main-container__header">
+            <div class="group__search">
+               <form class="form" id="form">
+                    <input type="text" class="input" id="input" placeholder="Search for a country..." >
+               </form>
+                <div id="search" class="icon-box">
+                    <i class="fas fa-search icon"></i>   
+                </div>
+                
+            </div>
+            <select class="select" id="select" >
+                <option hidden selected class="option">Filter by Region</option>
+                <option value="Africa" class="option">Africa</option>
+                <option value="Americas" class="option">America</option>
+                <option value="Asia" class="option">Asia</option>
+                <option value="Europe" class="option">Europa</option>
+                <option value="Oceania" class="option">Oceania</option>
+            </select>
+        </div>
+        <section id="flags-container" class="flags-container">
+            
+
+            
+
+        </section>
+        <div id="modal" class=" modal">
+            <a href="#" id="btn" class="btn btn--link"><i class="fa-solid fa-arrow-left-long icono"></i>back</a>
+            <div class="info-container">
+                <picture class="flag">
+                    <img src="https://flagcdn.com/io.svg" alt="">
+                </picture>
+                <div class="info">
+                    <div class="group__description">
+                        <p class="text__bold text__big">Aganistan</p>
+                    </div>  
+                    <div class="group__info">
+                       <div class="fs-description">                   
+                        <div class="group__description">
+                            <p class="text__normal--bold">Native Name:</p>
+                            <p class="text__normal">hola</p>
+                        </div>
+                        <div class="group__description">
+                            <p class="text__normal--bold">population:</p>
+                            <p class="text__normal">hola</p>
+                        </div> 
+                        <div class="group__description">
+                            <p class="text__normal--bold">region :</p>
+                            <p class="text__normal">hola</p>
+                        </div>
+                        <div class="group__description">
+                            <p class="text__normal--bold">sub region :</p>
+                            <p class="text__normal">hola</p>
+                        </div>
+                        <div class="group__description">
+                            <p class="text__normal--bold">capital :</p>
+                            <p class="text__normal">hola</p>
+                        </div>
+                   </div>
+                       <div class="sc-description">
+                        <div class="group__description">
+                            <p class="text__normal--bold">top level domain :</p>
+                            <p class="text__normal">hola</p>
+                        </div>
+                        <div class="group__description">
+                            <p class="text__normal--bold">currencies :</p>
+                            <p class="text__normal">hola</p>
+                        </div>
+                        <div class="group__description">
+                            <p class="text__normal--bold">languages :</p>
+                            <p class="text__normal">hola</p>
+                        </div>
+                   </div>
+                    </div>      
+                    <div class="footer-info">
+                        <div class="group__description">
+                                <p class="text__normal--bold">Border countries :</p>
+                                <div class="buttons">
+                                     <a href="" class="btn btn--small">ghana</a>
+                                     <a href="" class="btn btn--small">asia</a>
+                                     <a href="" class="btn btn--small">hello</a>
+                                </div>
+                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="script/script.js"></script>
+</body>
+</html>
